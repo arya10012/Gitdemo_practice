@@ -4,17 +4,18 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Intro — Demo</title>
+    <title>Big Demo Project</title>
     <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
     <header class="site-header">
         <div class="container header-inner">
-            <h1 class="logo">Demo Project and Changes in Code</h1>
+            <h1 class="logo">Big Demo Project</h1>
             <nav class="nav">
                 <a href="#features">Features</a>
                 <a href="#about">About</a>
+                <a href="#team">Team</a>
                 <a href="#contact">Contact</a>
             </nav>
         </div>
@@ -23,11 +24,9 @@
     <main>
         <section class="hero">
             <div class="container">
-                <h2>Welcome to the Demo Intro Page and Git Practice</h2>
-                <h1 class="logo">Demo Project — Branch B Edit</h1>
-
-                <p class="lead">A minimal, responsive starting page you can customize.</p>
-                <p><a class="cta" href="#features">See Features</a></p>
+                <h2>Welcome to the Big Demo Intro Page</h2>
+                <p class="lead">This is a larger HTML file for practicing Git merge conflicts.</p>
+                <p><a class="cta" href="#features">Explore Features</a></p>
             </div>
         </section>
 
@@ -46,23 +45,54 @@
                     <h4>Accessible</h4>
                     <p>Semantic elements and readable contrast by default.</p>
                 </article>
+                <article class="card">
+                    <h4>Customizable</h4>
+                    <p>Easy to add new sections, cards, and styles.</p>
+                </article>
             </div>
         </section>
 
         <section id="about" class="container about">
             <h3>About</h3>
             <p>This page is a starter template for an introductory project or portfolio.</p>
+            <p>It includes multiple sections to simulate real-world editing scenarios.</p>
+        </section>
+
+        <section id="team" class="container team">
+            <h3>Team</h3>
+            <div class="grid">
+                <article class="card">
+                    <h4>Arya</h4>
+                    <p>Python Developer Intern, focused on DevOps and SRE workflows.</p>
+                </article>
+                <article class="card">
+                    <h4>Sam</h4>
+                    <p>Frontend Engineer, building responsive layouts and UI components.</p>
+                </article>
+                <article class="card">
+                    <h4>Lee</h4>
+                    <p>Backend Engineer, optimizing APIs and database queries.</p>
+                </article>
+            </div>
         </section>
 
         <section id="contact" class="container contact">
             <h3>Contact</h3>
-            <p>Want help customizing this? Open the files and start editing.</p>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" />
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" />
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea>
+                <button type="submit">Send</button>
+            </form>
         </section>
     </main>
 
     <footer class="site-footer">
         <div class="container">
-            <small>&copy; 2025 Demo Project</small>
+            <small>&copy; 2025 Big Demo Project</small>
         </div>
     </footer>
 </body>
